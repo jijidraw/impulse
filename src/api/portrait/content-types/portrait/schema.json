@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portraits",
+  "info": {
+    "singularName": "portrait",
+    "pluralName": "portraits",
+    "displayName": "portrait"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "fonction": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
